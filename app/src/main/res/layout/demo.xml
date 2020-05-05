@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập name" />
+
+    <EditText
+        android:id="@+id/edtcareer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập career" />
+
+    <EditText
+        android:id="@+id/edtphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập phone" />
+
+    <TextView
+        android:id="@+id/tvdata"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn2json"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java => json string" />
+
+    <TextView
+        android:id="@+id/tvkq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KQ: " />
+
+
+</LinearLayout>
